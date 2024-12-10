@@ -1,0 +1,63 @@
+header {
+    background-color: rgba(0, 0, 0, 0.842);
+    border: 2px solid purple;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+  }
+
+.grid-container2 {
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    background-color: white;
+    padding: 20px;
+  }
+
+.datos {
+  line-height: 5px;
+}
+
+.grid-item2 {
+    background-color: rgba(0, 0, 0, 0.842);
+    border: 10px solid white;
+    border-radius: 4%;
+    padding: 20px;
+    text-align: left;
+    color: white;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.boton {
+    border: none;
+    border-radius: 10%;
+    color: rgb(0, 0, 0);
+    padding: 5px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(0, 255, 0);
+    font-weight: bolder;
+  }
+
+.portadas {
+  display: block;
+  float: auto;
+  size-adjust: auto;
+  align-items: center;
+  text-align: center;
+  box-shadow: 7px 7px rgb(0, 0, 0);
+  border: 2px solid rgb(255, 149, 1);
+}
